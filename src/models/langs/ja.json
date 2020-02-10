@@ -1,0 +1,307 @@
+{
+	"siteTitle": [ "OG + Mobile", "ManBetX Mobile" ],
+	"lobbyMarquee": [ "Welcome to Oriental Game! For a better gaming experience, we strongly recommend you to browse with Google Chrome or Safari.", "Welcome to ManbetX." ],
+	"loginForm": {
+		"username": "ユーザー名",
+		"password": "Password",
+		"login": "ログイン"
+	},
+	"logout": "You've been logged out successfully. Please close the tab.",
+	"shoeNo": "靴数",
+	"enterGame": "进入",
+	"inEvent": "Event",
+	"emceeTime": "ON LIVE",
+	"sidebar": {
+		"enter": "进入",
+		"bet": "Bet",
+		"goodTips": "Good Tips",
+		"lobby": "ロビー"
+	},
+	"noHistory": "既往がない",
+	"noData": "No Data",
+	"noGoodtips": {
+		"first": "No good tips",
+		"second": "Please wait"
+	},
+	"profile": {
+		"title": "プロファイル",
+		"nickname": "ニックネーム",
+		"avatar": "アバター"
+	},
+	"subSetting": {
+		"lang": {
+			"title": "言語",
+			"select": "Select Language"
+		},
+		"summary": {
+			"transNo": "Trans No.",
+			"validBet": "Valid Bet",
+			"winLoss": "W/L"
+		},
+		"date": {
+			"from": "From",
+			"to": "To",
+			"cancel": "キャンセル",
+			"comfrim": "確認する"
+		},
+		"history": {
+			"title": "歴史",
+			"search": "検索",
+			"table": "テーブル",
+			"betDate": "日付",
+			"betCode": "ベットコード",
+			"betArea": "ベットエリア",
+			"amount": "金额",
+			"winLoss": "勝ち/負け",
+			"noHistory": "既往がない",
+			"shoeNo": "靴数",
+			"shoe": "靴数",
+			"all": "All",
+			"more": "Detail",
+			"day": "{0} Day",
+			"days": "{0} Days",
+			"game": "Game"
+		},
+		"social": {
+			"title": "Follow",
+			"ranking": "ランキング",
+			"friends": "友達",
+			"dealers": "ディーラー",
+			"name": "ネーム",
+			"amount": "金额",
+			"table": "テーブル",
+			"followers": "追踪人数",
+			"enterTable": "进入",
+			"joinTable": "参加する"
+		},
+		"rules": {
+			"title": "Rules"
+		},
+		"report": {
+			"title": "Report",
+			"search": "検索",
+			"betDate": "日付",
+			"rolling": "Rolling",
+			"winLose": "勝ち/負け"
+		},
+		"sound": {
+			"title": "効果音"
+		},
+		"bgm": {
+			"title": "BGM"
+		},
+		"liveSound": {
+			"title": "Live Sound"
+		},
+		"video": {
+			"title": "ビデオ"
+		},
+		"logout": {
+			"title": "ログアウト"
+		}
+	},
+	"chipAmount": {
+		"setting": "チップチェンジ",
+		"edit": "Edit Chips",
+		"save": "保存する",
+		"success": "Successfully change the chip amount",
+		"errorMsg": {
+			"min": "Minimum chip value is 1",
+			"max": "Maximum chip value is 99,999,999",
+			"duplicate": "Duplicated value"
+		}
+	},
+	"timeClosed": "CLOSED",
+	"videoLoading": "ビデオ荷お待ちください",
+	"dealer": "ディーラー",
+	"emcee": "Emcee",
+	"tableMC": "MC{0}",
+	"playersBid": "Players",
+	"comingSoon": "Coming Soon",
+	"gameMenu": {
+		"all": "ALL GAMES",
+		"baccarat": "バカラ{n}BACCARAT",
+		"dragontiger": "ドラゴン・タイガー{n}DRAGON TIGER",
+		"emcee": "EMCEE",
+		"moneywheel": "マネーホイール{n}MONEY WHEEL",
+		"roulette": "ルーレット{n}ROULETTE",
+		"sicbo": "大小{n}SICBO",
+		"niuniu": "NIUNIU",
+		"threecards": "3 CARDS"
+	},
+	"gameMenu2": {
+		"all": "All{n}Games",
+		"baccarat": "Baccarat",
+		"dragontiger": "Dragon Tiger",
+		"emcee": "Emcee",
+		"moneywheel": "Money Wheel",
+		"classic": "Classic",
+		"grand": "Grand",
+		"roulette": "Roulette",
+		"sicbo": "Sicbo",
+		"niuniu": "Niuniu",
+		"threecards": "3 Cards",
+		"live": "Live",
+		"cards": "Card Game",
+		"slot": "Slot"
+	},
+	"gameNames": {
+		"baccarat": "バカラ",
+		"baccaratBid": "入札バカラ",
+		"baccaratSpeed": "极速百家乐",
+		"dragonTiger": "新式龙虎",
+		"dragonTigerClassic": "Classic DT",
+		"dragonTigerBid": "Bidding New DT",
+		"allDT": "ドラゴン・タイガー",
+		"moneywheel": "マネーホイール",
+		"roulette": "ルーレット",
+		"niuniu": "Niuniu",
+		"threecards": "3 Cards",
+		"sicbo": "大小"
+	},
+	"tableAreas": {
+		"player": "プレイヤー",
+		"banker": "バンカー",
+		"tie": "タイ",
+		"ppair": "プレイヤーペア",
+		"bpair": "バンカーペア",
+		"super6": "スパ 6",
+		"s6": "S6",
+		"dragon": "ドラゴン",
+		"tiger": "タイガー",
+		"phoenix": "PHOENIX",
+		"lucky": "LUCKY",
+		"luckyText": "ANY TRIPLE×10 / STRAIGHT FLUSH×5 / FLUSH×3 / STRAIGHT×2 /PAIR (9-A)×1",
+		"ratio": "x {0}",
+		"roulette": {
+			"small": "Small",
+			"big": "Big",
+			"even": "偶数",
+			"odd": "奇数",
+			"red": "レッド",
+			"black": "ブラック",
+			"single": "Single",
+			"split": "Split",
+			"square": "Square",
+			"street": "Street",
+			"line": "Line",
+			"tri": "Three Numbers",
+			"row": "Row",
+			"rows": [ "1st{n}Col.", "2nd{n}Col.", "3rd{n}Col." ],
+			"dozen": [ "1st{n}Dozen", "2nd{n}Dozen", "3rd{n}Dozen" ],
+			"series": [ "ゼロシュピール", "シリーズ{n}0/2/3", "オルフェンズ", "シリーズ{n}5/8" ]
+		},
+		"niuniu": {
+			"banker": "B",
+			"player": "P",
+			"double": "DOUBLE",
+			"equal": "EQUAL",
+			"many": "MANY"
+		}
+	},
+	"tableInfos": {
+		"player": "P",
+		"banker": "B",
+		"dragon": "D",
+		"tiger": "T"
+	},
+	"threecardsTypes": {
+		"triple_killer": "Triple Killer",
+		"triple": "Any Triple – {0}",
+		"straightflush": "Straight Flush – {0}",
+		"flush": "Flush – {0}",
+		"straight": "Straight – {0}",
+		"pair": "Pair – {0}",
+		"high_card": "High Card – {0}"
+	},
+	"niuniuTypes": {
+		"noBull": "No Bull",
+		"bull": "Bull {0}",
+		"bullBull": "Bull",
+		"fivePeople": "5P"
+	},
+	"waiting": {
+		"dealing": "发牌中",
+		"spinning": "回転中",
+		"shuffling": "Shuffling"
+	},
+	"winner": {
+		"tie": "タイ",
+		"win": "勝ち"
+	},
+	"chat": {
+		"typing": "输入...",
+		"search": "検索..."
+	},
+	"live": "ライブ",
+	"rotate": "Rotate",
+	"firstCard": "First Card",
+	"raceTracker": "Race Tracker",
+	"follow": "Follow",
+	"predict": {
+		"banker": "Ask B",
+		"player": "Ask P"
+	},
+	"messages": {
+		"welcome": "Start",
+		"scroll": "Slide Up",
+		"error": {
+			"connection": "保存に失敗しました",
+			"login": "ログインに失敗しました",
+			"duplicate": "You have been logged out due to multiple login. Please log in again!"
+		},
+		"lobby": {
+			"minCredit": "バランス金額が充分ではありません {0}!"
+		}
+	},
+	"betToast": {
+		"wins": {
+			"player": "プレーヤー ウィン！",
+			"banker": "バンカー ウィン！",
+			"dragon": "ドラゴン ウィン！",
+			"tiger": "タイガーウィン！",
+			"tie": "タイ！"
+		},
+		"state": {
+			"success": "ベット成功！",
+			"none": "ベットをする！",
+			"betStart": "Place Your Bets!",
+			"betEnd": "No More Bets!",
+			"squeeze": "Squeeze Start: {0}!",
+			"standby": "Please Standby!",
+			"balance": "バランス {0} {1}！",
+			"activeBet": "Unable to Exit Due to Active Bet!",
+			"minBet": "最低ベット額になっておりません！",
+			"maxBet": "ベットは上限を超えています！",
+			"noFund": "残高が不足しています！",
+			"noBet3Rnds": "3 回ベットをしなかったので、あと 2 回しないと一度ロビーへ出ます！",
+			"noRebet": "Rebet is NOT available!",
+			"noFundRebet": "Insufficient funds to rebet!"
+		},
+		"dealer": {
+			"followed": "Dealer Successfully Followed!",
+			"hasFollowed": "ディーラーはすでにフォローしています！"
+		},
+		"banChat": "Place 10 bet to enable chatting!",
+		"delayChat": "Please send chat after {0} seconds."
+	},
+	"symbol": {
+		"comma": ",",
+		"serial": ",",
+		"period": ".",
+		"colon": ":",
+		"semicolon": ";",
+		"exclamation": "!",
+		"question": "?"
+	},
+	"unit": {
+		"min": "min",
+		"sec": "sec"
+	},
+	"number": [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" ],
+	"date": {
+		"format": "MM / DD / YYYY",
+		"months": [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" ],
+		"weekdays": [ "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun" ]
+	}
+}

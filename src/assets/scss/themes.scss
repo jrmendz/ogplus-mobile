@@ -1,0 +1,120 @@
+/** Colors ---------- + ---------- + ---------- */
+$c-main: #daa520;
+$c-main-light: #fff0d7;
+$c-dark-blue: #24527c;
+$c-bead-red: #e24735;
+$c-bead-green: #39946a;
+$c-bead-blue: #1660de;
+$c-light-red: #E3574A;
+$c-light-yellow: #D7C542;
+$c-light-green: #6FD442;
+$c-light-ocean: #4a97be;
+$c-light-blue: #48A1F8;
+$c-light-purple: #d76de0;
+$c-dark: #252525;
+$c-black: #000000;
+
+/** Layouts ---------- + ---------- + ---------- */
+// $l-layout: 100%;
+
+/** Z-indexes ---------- + ---------- + ---------- */
+// $z-page: 1;
+
+/** Components ---------- + ---------- + ---------- */
+// <v-text-field />
+@mixin text-field-outline($text-color, $outline-color, $scale: 1) {
+    margin-top: 2.5px;
+    transform: scale($scale);
+
+    .v-input__slot {
+        margin: 0;
+        border-color: $outline-color;
+    }
+    .v-text-field__slot {
+        margin-left: 5px;
+    }
+    .v-text-field__details {
+        display: none;
+    }
+    .v-icon {
+        color: $text-color !important;
+    }
+    label {
+        color: $text-color !important;
+        font-size: 18px;
+        font-weight: bold;
+
+        &.v-label--active {
+            transform: translateY(-12px) scale(0.75);
+        }
+    }
+    input {
+        padding: 4px 0;
+        margin-top: 18px;
+
+        color: $text-color;
+        font-size: 20px;
+        text-align: left;
+    }
+}
+
+// <v-data-table class="data-table" />
+@mixin data-table-outline($max-height-xs, $max-height-xs-land) {
+    height: $max-height-xs;
+
+    @include xs-land-only {
+        height: $max-height-xs-land;
+    }
+
+    .v-table__overflow {
+        max-height: $max-height-xs;
+        overflow-y: auto;
+
+        @include xs-land-only {
+            max-height: $max-height-xs-land;
+        }
+    }
+    .v-datatable, .v-datatable__actions {
+        background-color: transparent;
+        color: #ffffff;
+    }
+    table.v-datatable {
+        width: 100%;
+
+        thead {
+            tr {
+                border-bottom: 1px solid #ffffff;
+                height: 42px;
+            }
+            th {
+                padding: 0;
+                transform: translateX(-6px);
+                
+                color: $c-main;
+                font-size: 16px;
+                font-weight: bold;
+
+                .v-icon {
+                    color: $c-main;
+                    transform: translate(1px, -2px);
+                }
+                &.column.sortable.active.desc .v-icon {
+                    transform: translate(1px, -2px) rotate(-180deg);
+                }
+            }
+        }
+        tbody {
+            tr {
+                border-bottom: 0.5px solid rgba(#ffffff, 0.6);
+            }
+            tr:hover:not(.v-datatable__expand-row) {
+                background: rgba($c-main, 0.5);
+            }
+            td {
+                padding: 0;
+                height: 36px;
+                font-size: 14px;
+            }
+        }
+    }
+}

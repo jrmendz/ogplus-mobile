@@ -1,0 +1,68 @@
+variables:
+        GIT_STRATEGY: none
+stages:
+    - build
+    - deploy
+#    - clean
+#    - test
+#    - destroy
+#    - deploy
+
+#DevClean:
+#    only:
+#        - rebuild@puzz.chang/panda-mobile-ts
+#    stage: clean
+#    script: 
+#        - rm -rf node_modules
+#        - rm -rf package-lock.json
+#        - rm -rf dist/*
+#    tags: 
+#        - restructure
+DevBuild:
+    only:
+        - rebuild@puzz.chang/panda-mobile-ts
+    variables:
+        GIT_STRATEGY: clone
+    stage: build
+    script:
+        - nvm use 8.9.3
+        - npm install
+        - npm run-script build-dev
+    tags:
+        - restructure
+
+DevDeploy:
+    only:
+        - rebuild@puzz.chang/panda-mobile-ts
+    stage: deploy
+    script: 
+        - cp -rf dist/. ~/../usr/share/nginx/html/panda-mobile/
+    tags:
+        - restructure
+#DevTest:
+#    stage: test
+#    before_script:
+#        - call npm i
+#    script:
+#        - npm test
+#    tags:
+#        - athens
+        
+#DevDestroy:
+#    stage: destroy
+#    before_script:
+#        - call npm i
+#    script:
+#        - forever stopall
+#    tags:
+#        - athens
+        
+#DevStart:
+#    stage: deploy
+#    before_script:
+#        - call npm i
+#    script:
+#        - forever start app.js
+#    tags:
+#        - athens
+#oof

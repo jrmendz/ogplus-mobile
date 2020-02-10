@@ -1,0 +1,307 @@
+{
+	"siteTitle": [ "OG + Mobile", "ManBetX Mobile" ],
+	"lobbyMarquee": [ "Welcome to Oriental Game! For a better gaming experience, we strongly recommend you to browse with Google Chrome or Safari.", "Welcome to ManbetX." ],
+	"loginForm": {
+		"username": "User Name",
+		"password": "Password",
+		"login": "LOG IN"
+	},
+	"logout": "You've been logged out successfully. Please close the tab.",
+	"shoeNo": "Shoe",
+	"enterGame": "Enter",
+	"inEvent": "Event",
+	"emceeTime": "ON LIVE",
+	"sidebar": {
+		"enter": "Enter",
+		"bet": "Bet",
+		"goodTips": "Good Tips",
+		"lobby": "Lobby"
+	},
+	"noHistory": "No History",
+	"noData": "No Data",
+	"noGoodtips": {
+		"first": "No good tips",
+		"second": "Please wait"
+	},
+	"profile": {
+		"title": "Profile",
+		"nickname": "Nickname",
+		"avatar": "Select Avatar"
+	},
+	"subSetting": {
+		"lang": {
+			"title": "Language",
+			"select": "Select Language"
+		},
+		"summary": {
+			"transNo": "Trans No.",
+			"validBet": "Valid Bet",
+			"winLoss": "W/L"
+		},
+		"date": {
+			"from": "From",
+			"to": "To",
+			"cancel": "Cancel",
+			"comfrim": "OK"
+		},
+		"history": {
+			"title": "History",
+			"search": "SEARCH",
+			"table": "Table",
+			"betDate": "Date",
+			"betCode": "Bet Code",
+			"betArea": "Bet Area",
+			"amount": "Bet",
+			"winLoss": "W/L",
+			"noHistory": "No History",
+			"shoeNo": "Shoe",
+			"shoe": "Shoe",
+			"all": "All",
+			"more": "Detail",
+			"day": "{0} Day",
+			"days": "{0} Days",
+			"game": "Game"
+		},
+		"social": {
+			"title": "Follow",
+			"ranking": "Ranking",
+			"friends": "Friends",
+			"dealers": "Dealers",
+			"name": "Name",
+			"amount": "Bet",
+			"table": "Table",
+			"followers": "Followers",
+			"enterTable": "Enter",
+			"joinTable": "Join"
+		},
+		"rules": {
+			"title": "Rules"
+		},
+		"report": {
+			"title": "Report",
+			"search": "SEARCH",
+			"betDate": "Date",
+			"rolling": "Rolling",
+			"winLose": "Win/Loss"
+		},
+		"sound": {
+			"title": "Sound FX"
+		},
+		"bgm": {
+			"title": "BGM"
+		},
+		"liveSound": {
+			"title": "Live Sound"
+		},
+		"video": {
+			"title": "Video"
+		},
+		"logout": {
+			"title": "Logout"
+		}
+	},
+	"chipAmount": {
+		"setting": "Setting",
+		"edit": "Edit Chips",
+		"save": "SAVE",
+		"success": "Successfully change the chip amount",
+		"errorMsg": {
+			"min": "Minimum chip value is 1",
+			"max": "Maximum chip value is 99,999,999",
+			"duplicate": "Duplicated value"
+		}
+	},
+	"timeClosed": "CLOSED",
+	"videoLoading": "Video is loading, please wait.",
+	"dealer": "Dealer",
+	"emcee": "Emcee",
+	"tableMC": "MC{0}",
+	"playersBid": "Players",
+	"comingSoon": "Coming Soon",
+	"gameMenu": {
+		"all": "ALL GAMES",
+		"baccarat": "BACCARAT",
+		"dragontiger": "DRAGON TIGER",
+		"emcee": "EMCEE",
+		"moneywheel": "MONEY WHEEL",
+		"roulette": "ROULETTE",
+		"sicbo": "SICBO",
+		"niuniu": "NIUNIU",
+		"threecards": "3 CARDS"
+	},
+	"gameMenu2": {
+		"all": "All{n}Games",
+		"baccarat": "Baccarat",
+		"dragontiger": "Dragon Tiger",
+		"emcee": "Emcee",
+		"moneywheel": "Money Wheel",
+		"classic": "Classic",
+		"grand": "Grand",
+		"roulette": "Roulette",
+		"sicbo": "Sicbo",
+		"niuniu": "Niuniu",
+		"threecards": "3 Cards",
+		"live": "Live",
+		"cards": "Card Game",
+		"slot": "Slot"
+	},
+	"gameNames": {
+		"baccarat": "Baccarat",
+		"baccaratBid": "Bidding Baccarat",
+		"baccaratSpeed": "Speed Baccarat",
+		"dragonTiger": "New DT",
+		"dragonTigerClassic": "Classic DT",
+		"dragonTigerBid": "Bidding New DT",
+		"allDT": "Dragon Tiger",
+		"moneywheel": "Moneywheel",
+		"roulette": "Roulette",
+		"niuniu": "Niuniu",
+		"threecards": "3 Cards",
+		"sicbo": "Sicbo"
+	},
+	"tableAreas": {
+		"player": "PLAYER",
+		"banker": "BANKER",
+		"tie": "TIE",
+		"ppair": "P PAIR",
+		"bpair": "B PAIR",
+		"super6": "SUPER 6",
+		"s6": "S6",
+		"dragon": "DRAGON",
+		"tiger": "TIGER",
+		"phoenix": "PHOENIX",
+		"lucky": "LUCKY",
+		"luckyText": "ANY TRIPLE×10 / STRAIGHT FLUSH×5 / FLUSH×3 / STRAIGHT×2 /PAIR (9-A)×1",
+		"ratio": "x {0}",
+		"roulette": {
+			"small": "Small",
+			"big": "Big",
+			"even": "Even",
+			"odd": "Odd",
+			"red": "Red",
+			"black": "Black",
+			"single": "Single",
+			"split": "Split",
+			"square": "Square",
+			"street": "Street",
+			"line": "Line",
+			"tri": "Three Numbers",
+			"row": "Row",
+			"rows": [ "1st{n}Col.", "2nd{n}Col.", "3rd{n}Col." ],
+			"dozen": [ "1st{n}Dozen", "2nd{n}Dozen", "3rd{n}Dozen" ],
+			"series": [ "0-Spiel", "Series{n}0/2/3", "Orphans", "Series{n}5/8" ]
+		},
+		"niuniu": {
+			"banker": "B",
+			"player": "P",
+			"double": "DOUBLE",
+			"equal": "EQUAL",
+			"many": "MANY"
+		}
+	},
+	"tableInfos": {
+		"player": "P",
+		"banker": "B",
+		"dragon": "D",
+		"tiger": "T"
+	},
+	"threecardsTypes": {
+		"triple_killer": "Triple Killer",
+		"triple": "Any Triple – {0}",
+		"straightflush": "Straight Flush – {0}",
+		"flush": "Flush – {0}",
+		"straight": "Straight – {0}",
+		"pair": "Pair – {0}",
+		"high_card": "High Card – {0}"
+	},
+	"niuniuTypes": {
+		"noBull": "No Bull",
+		"bull": "Bull {0}",
+		"bullBull": "Bull",
+		"fivePeople": "5P"
+	},
+	"waiting": {
+		"dealing": "Dealing",
+		"spinning": "Spinning Wheel",
+		"shuffling": "Shuffling"
+	},
+	"winner": {
+		"tie": "TIE",
+		"win": "Win"
+	},
+	"chat": {
+		"typing": "Type here...",
+		"search": "Search..."
+	},
+	"live": "Live",
+	"rotate": "Rotate",
+	"firstCard": "First Card",
+	"raceTracker": "Race Tracker",
+	"follow": "Follow",
+	"predict": {
+		"banker": "Ask B",
+		"player": "Ask P"
+	},
+	"messages": {
+		"welcome": "Start",
+		"scroll": "Slide Up",
+		"error": {
+			"connection": "Connection Error!",
+			"login": "Error occured, wrong credentials!",
+			"duplicate": "You have been logged out due to multiple login. Please log in again!"
+		},
+		"lobby": {
+			"minCredit": "Sorry, the minimum credit to enter is {0}!"
+		}
+	},
+	"betToast": {
+		"wins": {
+			"player": "Player Wins!",
+			"banker": "Banker Wins!",
+			"dragon": "Dragon Wins!",
+			"tiger": "Tiger Wins!",
+			"tie": "Tie!"
+		},
+		"state": {
+			"success": "Bet Successful!",
+			"none": "Please Place Your Bet!",
+			"betStart": "Place Your Bets!",
+			"betEnd": "No More Bets!",
+			"squeeze": "Squeeze Start: {0}!",
+			"standby": "Please Standby!",
+			"balance": "Balance {0} {1}!",
+			"activeBet": "Unable to Exit Due to Active Bet!",
+			"minBet": "Bet is below minimum!",
+			"maxBet": "Maximum bet reached!",
+			"noFund": "Insufficient fund!",
+			"noBet3Rnds": "You have NOT bet for 3 times, 2 more and you'll be redirected to lobby!",
+			"noRebet": "Rebet is NOT available!",
+			"noFundRebet": "Insufficient funds to rebet!"
+		},
+		"dealer": {
+			"followed": "Dealer Successfully Followed!",
+			"hasFollowed": "Dealer Already Followed!"
+		},
+		"banChat": "Place 10 bet to enable chatting!",
+		"delayChat": "Please send chat after {0} seconds."
+	},
+	"symbol": {
+		"comma": ",",
+		"serial": ",",
+		"period": ".",
+		"colon": ":",
+		"semicolon": ";",
+		"exclamation": "!",
+		"question": "?"
+	},
+	"unit": {
+		"min": "min",
+		"sec": "sec"
+	},
+	"number": [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" ],
+	"date": {
+		"format": "MM / DD / YYYY",
+		"months": [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" ],
+		"weekdays": [ "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun" ]
+	}
+}

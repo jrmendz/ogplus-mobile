@@ -1,0 +1,307 @@
+{
+	"siteTitle": [ "OG + 手机版", "ManBetX 手机版" ],
+	"lobbyMarquee": [ "欢迎莅临东方游戏！建议使用 Chrome 浏览器或 Safari 浏览器浏览器，以获得较佳游戏体验！祝您财源广进，天天都有好手气！", "万博亚洲厅真人视讯盛世启幕，盛夏光年体味百媚千娇，邀您共享品牌繁华，随时随地身临其境。美女荷官甜蜜互动，至臻好礼缤纷呈现，时刻与您共度奢宏时光！" ],
+	"loginForm": {
+		"username": "用户名",
+		"password": "密码",
+		"login": "登录"
+	},
+	"logout": "您已登出，请关闭网页",
+	"shoeNo": "靴局",
+	"enterGame": "进入游戏",
+	"inEvent": "活动中",
+	"emceeTime": "直播时间",
+	"sidebar": {
+		"enter": "进入",
+		"bet": "下注",
+		"goodTips": "好路提示",
+		"lobby": "大厅"
+	},
+	"noHistory": "没有历史纪录",
+	"noData": "没有数据",
+	"noGoodtips": {
+		"first": "目前无好路",
+		"second": "请稍等"
+	},
+	"profile": {
+		"title": "玩家资讯",
+		"nickname": "昵称",
+		"avatar": "选择头像"
+	},
+	"subSetting": {
+		"lang": {
+			"title": "语言",
+			"select": "选择语言"
+		},
+		"summary": {
+			"transNo": "单量",
+			"validBet": "有效投注",
+			"winLoss": "输/赢"
+		},
+		"date": {
+			"from": "从",
+			"to": "到",
+			"cancel": "取消",
+			"comfrim": "确认"
+		},
+		"history": {
+			"title": "投注纪录",
+			"search": "查询",
+			"table": "桌号",
+			"betDate": "日期",
+			"betCode": "注单号",
+			"betArea": "投注区",
+			"amount": "额度",
+			"winLoss": "输/赢",
+			"noHistory": "没有历史纪录",
+			"shoeNo": "靴局",
+			"shoe": "靴局",
+			"all": "全部",
+			"more": "点开",
+			"day": "{0}天",
+			"days": "{0}天",
+			"game": "游戏"
+		},
+		"social": {
+			"title": "社交",
+			"ranking": "排行",
+			"friends": "朋友",
+			"dealers": "荷官",
+			"name": "昵称",
+			"amount": "额度",
+			"table": "桌号",
+			"followers": "关注人数",
+			"enterTable": "进入游戏",
+			"joinTable": "加入"
+		},
+		"rules": {
+			"title": "规则"
+		},
+		"report": {
+			"title": "报表",
+			"search": "查询",
+			"betDate": "日期",
+			"rolling": "投注金额",
+			"winLose": "输/赢"
+		},
+		"sound": {
+			"title": "音效"
+		},
+		"bgm": {
+			"title": "背景音乐"
+		},
+		"liveSound": {
+			"title": "视频声音"
+		},
+		"video": {
+			"title": "视频"
+		},
+		"logout": {
+			"title": "退出"
+		}
+	},
+	"chipAmount": {
+		"setting": "自定筹码",
+		"edit": "编辑筹码",
+		"save": "保存",
+		"success": "修改筹码额度成功",
+		"errorMsg": {
+			"min": "筹码量最低设定是 1",
+			"max": "筹码量最高设定是 99,999,999",
+			"duplicate": "筹码量重复设定"
+		}
+	},
+	"timeClosed": "停止下注",
+	"videoLoading": "视频加载中，请稍后",
+	"dealer": "荷官",
+	"emcee": "直播主",
+	"tableMC": "直播 {0}",
+	"playersBid": "得标玩家",
+	"comingSoon": "敬请期待",
+	"gameMenu": {
+		"all": "全部游戏{n}ALL GAMES",
+		"baccarat": "百家乐{n}BACCARAT",
+		"dragontiger": "龙虎{n}DRAGON TIGER",
+		"emcee": "直播{n}EMCEE",
+		"moneywheel": "幸运轮盘{n}MONEY WHEEL",
+		"roulette": "轮盘{n}ROULETTE",
+		"sicbo": "骰宝{n}SICBO",
+		"niuniu": "牛牛{n}NIUNIU",
+		"threecards": "炸金花{n}3 CARDS"
+	},
+	"gameMenu2": {
+		"all": "全部{n}游戏",
+		"baccarat": "百家乐",
+		"dragontiger": "龙虎",
+		"emcee": "直播",
+		"moneywheel": "幸运轮盘",
+		"classic": "经典",
+		"grand": "鸿盛",
+		"roulette": "轮盘",
+		"sicbo": "骰宝",
+		"niuniu": "牛牛",
+		"threecards": "炸金花",
+		"live": "视讯",
+		"cards": "棋牌",
+		"slot": "电子"
+	},
+	"gameNames": {
+		"baccarat": "百家乐",
+		"baccaratBid": "竞眯百家乐",
+		"baccaratSpeed": "极速百家乐",
+		"dragonTiger": "新式龙虎",
+		"dragonTigerClassic": "经典龙虎",
+		"dragonTigerBid": "竞咪新式龙虎",
+		"allDT": "龙虎",
+		"moneywheel": "幸运轮盘--龙",
+		"roulette": "轮盘",
+		"niuniu": "牛牛",
+		"threecards": "炸金花",
+		"sicbo": "骰宝"
+	},
+	"tableAreas": {
+		"player": "闲",
+		"banker": "庄",
+		"tie": "和",
+		"ppair": "闲对",
+		"bpair": "庄对",
+		"super6": "超级 6",
+		"s6": "超6",
+		"dragon": "龙",
+		"tiger": "虎",
+		"phoenix": "凤",
+		"lucky": "幸运一击",
+		"luckyText": "豹子×10 / 顺金×5 / 金花×3 / 顺子×2 / 对子 (9-A)×1",
+		"ratio": "{0}倍",
+		"roulette": {
+			"small": "小",
+			"big": "大",
+			"even": "双",
+			"odd": "单",
+			"red": "红",
+			"black": "黑",
+			"single": "单数",
+			"split": "分注",
+			"square": "角注",
+			"street": "街注",
+			"line": "线注",
+			"tri": "三数",
+			"row": "列注",
+			"rows": [ "列一", "列二", "列三" ],
+			"dozen": [ "第一打", "第二打", "第三打" ],
+			"series": [ "轮上零旁", "零旁注上角{n}0/2/3", "轮上孤注", "轮盘下角注{n}5/8" ]
+		},
+		"niuniu": {
+			"banker": "庄",
+			"player": "闲",
+			"double": "翻倍",
+			"equal": "平倍",
+			"many": "多倍"
+		}
+	},
+	"tableInfos": {
+		"player": "闲",
+		"banker": "庄",
+		"dragon": "龙",
+		"tiger": "虎"
+	},
+	"threecardsTypes": {
+		"triple_killer": "豹子杀手",
+		"triple": "豹子 – {0}",
+		"straightflush": "同花顺 – {0}",
+		"flush": "同花 – {0}",
+		"straight": "顺子 – {0}",
+		"pair": "对子 – {0}",
+		"high_card": "散牌 – {0}"
+	},
+	"niuniuTypes": {
+		"noBull": "无牛",
+		"bull": "牛{0}",
+		"bullBull": "牛牛",
+		"fivePeople": "五公"
+	},
+	"waiting": {
+		"dealing": "开牌中",
+		"spinning": "转盘中",
+		"shuffling": "洗牌中"
+	},
+	"winner": {
+		"tie": "和",
+		"win": "赢"
+	},
+	"chat": {
+		"typing": "在此输入...",
+		"search": "查询..."
+	},
+	"live": "现场",
+	"rotate": "旋转",
+	"firstCard": "头牌",
+	"raceTracker": "法式",
+	"follow": "关注",
+	"predict": {
+		"banker": "庄问路",
+		"player": "闲问路"
+	},
+	"messages": {
+		"welcome": "按此开始",
+		"scroll": "请向上滑",
+		"error": {
+			"connection": "连接错误！",
+			"login": "验证错误！",
+			"duplicate": "帐户已被重复登入，请重新登入！"
+		},
+		"lobby": {
+			"minCredit": "抱歉，你的余额不足 {0}"
+		}
+	},
+	"betToast": {
+		"wins": {
+			"player": "闲赢！",
+			"banker": "庄赢！",
+			"dragon": "龙赢！",
+			"tiger": "虎赢！",
+			"tie": "和局！"
+		},
+		"state": {
+			"success": "下注成功！",
+			"none": "请下注！",
+			"betStart": "已开局，请下注！",
+			"betEnd": "投注停止！",
+			"squeeze": "请眯牌：{0}！",
+			"standby": "等待眯牌！",
+			"balance": "余额 {0} {1}！",
+			"activeBet": "下注后无法离桌！",
+			"minBet": "下注低于最低限度！",
+			"maxBet": "下注超过最高限度！",
+			"noFund": "余额不足！",
+			"noBet3Rnds": "你已经 3 局未下注，2 局后将返回大厅！",
+			"noRebet": "重复投注无效！",
+			"noFundRebet": "余额不足于重复投注！"
+		},
+		"dealer": {
+			"followed": "荷官追踪成功！",
+			"hasFollowed": "荷官已追踪！"
+		},
+		"banChat": "下注 10 前，不能聊天哦！",
+		"delayChat": "请在 {0} 秒后发送聊天"
+	},
+	"symbol": {
+		"comma": "，",
+		"serial": "、",
+		"period": "。",
+		"colon": "：",
+		"semicolon": "；",
+		"exclamation": "！",
+		"question": "？"
+	},
+	"unit": {
+		"min": "分钟",
+		"sec": "秒"
+	},
+	"number": [ "零", "一", "二", "三", "四", "五", "六", "七", "八", "九", "十" ],
+	"date": {
+		"format": "YYYY 年 MM 月 DD 日",
+		"months": [ "一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月" ],
+		"weekdays": [ "星期一", "星期二", "星期三", "星期四", "星期五", "星期六", "星期日" ]
+	}
+}

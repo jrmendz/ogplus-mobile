@@ -1,0 +1,275 @@
+// Minimum width of each device
+$grid-breakpoints: (
+    xs: 0,              // Extra small: small to large handset / phone
+    sm: 600px,          // Small      : small to medium tablet
+    md: 960px,          // Medium     : large tablet to laptop
+    lg: 1280px - 16px,  // Large      : desktop
+    xl: 1920px - 16px,  // Extra large: 4k and ultra-wides / television
+);
+
+$breakpoint-xs: map-get($grid-breakpoints, xs);
+$breakpoint-sm: map-get($grid-breakpoints, sm);
+$breakpoint-md: map-get($grid-breakpoints, md);
+$breakpoint-lg: map-get($grid-breakpoints, lg);
+$breakpoint-xl: map-get($grid-breakpoints, xl);
+
+$slices: 7, 9, 10, 16;
+
+@each $breakpoint, $width in $grid-breakpoints {
+    @for $i from 1 through length($slices) {
+        
+        $slice: nth($slices, $i);
+        @media all and (min-width: $width) {
+            @for $j from 1 through $slice {
+                .flex.#{ $breakpoint }#{ $j }-#{ $slice } {
+                    flex-basis: $j / $slice * 100% !important;
+                    flex-grow: 0 !important;
+                    max-width: $j / $slice * 100% !important;
+                }
+                .flex.order-#{ $breakpoint }#{ $j }-#{ $slice } {
+                    order: $j !important;
+                }
+                .flex.offset-#{ $breakpoint }#{ $j }-#{ $slice } {
+                    margin-left: $j / $slice * 100% !important;
+                }
+            }
+        }
+    }
+}
+
+
+@mixin xxs-only {
+    @media all and (max-width: 360px) {
+        @content;
+    }
+}
+@mixin xs-only {
+    @media all and (max-width: $breakpoint-sm - 1px) {
+        @content;
+    }
+}
+@mixin sm-only {
+    @media all and (min-width: $breakpoint-sm) and (max-width: $breakpoint-md - 1px) {
+        @content;
+    }
+}
+@mixin md-only {
+    @media all and (min-width: $breakpoint-md) and (max-width: $breakpoint-lg - 1px) {
+        @content;
+    }
+}
+@mixin lg-only {
+    @media all and (min-width: $breakpoint-lg) and (max-width: $breakpoint-xl - 1px) {
+        @content;
+    }
+}
+@mixin xl-only {
+    @media all and (min-width: $breakpoint-xl) {
+        @content;
+    }
+}
+
+@mixin port-only {
+    @media all and (max-aspect-ratio: 13/9) /*and (orientation: portrait)*/ {
+        @content;
+    }
+}
+@mixin land-only {
+    @media all and (min-aspect-ratio: 13/9) /*and (orientation: landscape)*/ {
+        @content;
+    }
+}
+@mixin xxs-land-only {
+    @media all and (max-height: 360px) and (orientation: landscape) {
+        @content;
+    }
+}
+@mixin xs-land-only {
+    @media all and (max-height: $breakpoint-sm - 1px) and (orientation: landscape) {
+        @content;
+    }
+}
+@mixin sm-land-only {
+    @media all and (min-height: $breakpoint-sm) and (max-height: $breakpoint-md - 1px) and (orientation: landscape) {
+        @content;
+    }
+}
+@mixin md-land-only {
+    @media all and (min-height: $breakpoint-md) and (max-height: $breakpoint-lg - 1px) and (orientation: landscape) {
+        @content;
+    }
+}
+@mixin lg-land-only {
+    @media all and (min-height: $breakpoint-lg) and (max-height: $breakpoint-xl - 1px) and (orientation: landscape) {
+        @content;
+    }
+}
+@mixin xl-land-only {
+    @media all and (min-height: $breakpoint-xl) and (orientation: landscape) {
+        @content;
+    }
+}
+
+@mixin sm-and-down {
+    @media all and (max-width: $breakpoint-md - 1px) {
+        @content;
+    }
+}
+@mixin md-and-down {
+    @media all and (max-width: $breakpoint-lg - 1px) {
+        @content;
+    }
+}
+@mixin lg-and-down {
+    @media all and (max-width: $breakpoint-xl - 1px) {
+        @content;
+    }
+}
+
+@mixin sm-and-up {
+    @media all and (min-width: $breakpoint-sm) {
+        @content;
+    }
+}
+@mixin md-and-up {
+    @media all and (min-width: $breakpoint-md) {
+        @content;
+    }
+}
+@mixin lg-and-up {
+    @media all and (min-width: $breakpoint-lg) {
+        @content;
+    }
+}
+
+
+/** ---------- + ---------- + ---------- */
+@mixin ios {
+    @supports (-webkit-overflow-scrolling: touch) {
+        @at-root .ua-safari #{&} {
+            @content;
+        }
+    }
+}
+
+@mixin ios-left($prefix: "", $pre-calc: (), $operator: "+", $last-calc: (), $append: null) {
+    $pre: null;
+    @each $item in $pre-calc {
+        $pre: #{ $pre } #{ $item };
+    }
+
+    $last: null;
+    @each $item in $last-calc {
+        $last: #{ $last } #{ $item };
+    }
+
+    $property: "left";
+    @if $prefix != "" { $property: "#{ $prefix }-left"; }
+
+    #{ $property }: calc(#{ $pre } #{ $last }) $append;
+
+    @media all and (min-width: 760px) and (orientation: landscape) {
+        @include ios {
+            #{ $property }: calc(#{ $pre } #{ $operator } constant(safe-area-inset-left) - 10px #{ $last }) $append;
+            #{ $property }: calc(#{ $pre } #{ $operator } env(safe-area-inset-left) - 10px #{ $last }) $append;
+        }
+    }
+}
+
+@mixin ios-right($prefix: "", $pre-calc: (), $operator: "+", $last-calc: (), $append: null) {
+    $pre: null;
+    @each $item in $pre-calc {
+        $pre: #{ $pre } #{ $item };
+    }
+
+    $last: null;
+    @each $item in $last-calc {
+        $last: #{ $last } #{ $item };
+    }
+
+    $property: "right";
+    @if $prefix != "" { $property: "#{ $prefix }-right"; }
+
+    #{ $property }: calc(#{ $pre } #{ $last }) $append;
+
+    @media all and (min-width: 760px) and (orientation: landscape) {
+        @include ios {
+            #{ $property }: calc(#{ $pre } #{ $operator } constant(safe-area-inset-right) - 10px #{ $last }) $append;
+            #{ $property }: calc(#{ $pre } #{ $operator } env(safe-area-inset-right) - 10px #{ $last }) $append;
+        }
+    }
+}
+
+@mixin ios-width($prefix: "", $pre-calc: (), $operator: "-", $last-calc: (), $append: null) {
+    $pre: null;
+    @each $item in $pre-calc {
+        $pre: #{ $pre } #{ $item };
+    }
+
+    $last: null;
+    @each $item in $last-calc {
+        $last: #{ $last } #{ $item };
+    }
+
+    $property: "width";
+    @if $prefix != "" { $property: "#{ $prefix }-width"; }
+
+    #{ $property }: calc(#{ $pre } #{ $last }) $append;
+
+    @media all and (min-width: 760px) and (orientation: landscape) {
+        @include ios {
+            #{ $property }: calc(#{ $pre } #{ $operator } (constant(safe-area-inset-left) + constant(safe-area-inset-right) - 20px) #{ $last }) $append;
+            #{ $property }: calc(#{ $pre } #{ $operator } (env(safe-area-inset-left) + env(safe-area-inset-right) - 20px) #{ $last }) $append;
+        }
+    }
+}
+
+@mixin ios-clip($top-left, $bottom-left, $bottom-right, $top-right) {
+    @media all and (min-width: 760px) and (orientation: landscape) {
+        @include ios {
+            clip-path: polygon($top-left, $bottom-left, $bottom-right, $top-right);
+        }
+    }
+}
+
+.container.fluid-ios {
+    @media all and (min-width: 760px) and (orientation: landscape) {
+        max-width: calc(100% - constant(safe-area-inset-left) - constant(safe-area-inset-right) + 20px);
+        max-width: calc(100% - env(safe-area-inset-left) - env(safe-area-inset-right) + 20px);
+    }
+}
+
+
+/** ---------- + ---------- + ---------- */
+/** 
+ * Mixin to prefix a property
+ *
+ * @param {String} $property - Property name
+ * @param {*}      $value    - Property value
+ * @param {List}   $prefixes - List of prefixes to print
+ */
+@mixin prefix($property, $value, $prefixes: ()) {
+    @each $prefix in $prefixes {
+        #{"-" + $prefix + "-" + $property}: $value;
+    }
+     
+    // Output standard non-prefixed declaration
+    #{$property}: $value;
+}
+
+/** 
+ * Mixin to prefix a function
+ *
+ * @param {String} $property - Property name
+ * @param {String} $func     - Function name
+ * @param {*}      $value    - Property value
+ * @param {List}   $prefixes - List of prefixes to print
+ */
+@mixin func-prefix($property, $func, $value, $prefixes: ()) {
+    @each $prefix in $prefixes {
+        $property: #{"-" + $prefix + "-" + $func + "(" + $value + ")"};
+    }
+     
+    // Output standard non-prefixed declaration
+    $property: #{$func + "(" + $value + ")"};
+}

@@ -1,0 +1,307 @@
+{
+	"siteTitle": [ "OG + Mobile", "ManBetX Mobile" ],
+	"lobbyMarquee": [ "Welcome to Oriental Game! For a better gaming experience, we strongly recommend you to browse with Google Chrome or Safari.", "Welcome to ManbetX." ],
+	"loginForm": {
+		"username": "Nama pengguna",
+		"password": "Password",
+		"login": "MASUK (LOGIN)"
+	},
+	"logout": "You've been logged out successfully. Please close the tab.",
+	"shoeNo": "Shoe",
+	"enterGame": "Enter",
+	"inEvent": "Event",
+	"emceeTime": "ON LIVE",
+	"sidebar": {
+		"enter": "Enter",
+		"bet": "Bet",
+		"goodTips": "Good Tips",
+		"lobby": "LOBI"
+	},
+	"noHistory": "TIDAK ADA SEJARAH",
+	"noData": "No Data",
+	"noGoodtips": {
+		"first": "No good tips",
+		"second": "Please wait"
+	},
+	"profile": {
+		"title": "PROFIL",
+		"nickname": "NAMA PANGGILAN",
+		"avatar": "Pilih Avatar"
+	},
+	"subSetting": {
+		"lang": {
+			"title": "bahasa",
+			"select": "Select Language"
+		},
+		"summary": {
+			"transNo": "Trans No.",
+			"validBet": "Valid Bet",
+			"winLoss": "W/L"
+		},
+		"date": {
+			"from": "From",
+			"to": "To",
+			"cancel": "membatalkan",
+			"comfrim": "KONFIRMASI"
+		},
+		"history": {
+			"title": "SEJARAH",
+			"search": "CARI",
+			"table": "meja",
+			"betDate": "waktu",
+			"betCode": "Bet Code",
+			"betArea": "DAERAH BERTARUH",
+			"amount": "Bet",
+			"winLoss": "MENANG/KALAH",
+			"noHistory": "TIDAK ADA SEJARAH",
+			"shoeNo": "Shoe",
+			"shoe": "Shoe",
+			"all": "Semua",
+			"more": "Detail",
+			"day": "{0} Day",
+			"days": "{0} Days",
+			"game": "Game"
+		},
+		"social": {
+			"title": "Follow",
+			"ranking": "peringkat",
+			"friends": "Friends",
+			"dealers": "Dealers",
+			"name": "Nama",
+			"amount": "Bet",
+			"table": "meja",
+			"followers": "Followers",
+			"enterTable": "Enter",
+			"joinTable": "ikut"
+		},
+		"rules": {
+			"title": "Rules"
+		},
+		"report": {
+			"title": "Report",
+			"search": "CARI",
+			"betDate": "waktu",
+			"rolling": "Rolling",
+			"winLose": "MENANG/KALAH"
+		},
+		"sound": {
+			"title": "efek suara"
+		},
+		"bgm": {
+			"title": "BGM"
+		},
+		"liveSound": {
+			"title": "Live Sound"
+		},
+		"video": {
+			"title": "Video"
+		},
+		"logout": {
+			"title": "keluar"
+		}
+	},
+	"chipAmount": {
+		"setting": "GANTI CHIP",
+		"edit": "Edit Chips",
+		"save": "menyimpan",
+		"success": "Successfully change the chip amount",
+		"errorMsg": {
+			"min": "Minimum chip value is 1",
+			"max": "Maximum chip value is 99,999,999",
+			"duplicate": "Duplicated value"
+		}
+	},
+	"timeClosed": "CLOSED",
+	"videoLoading": "PEMUATAN VIDEO, HARAP TUNGGU",
+	"dealer": "Dealer",
+	"emcee": "Emcee",
+	"tableMC": "MC{0}",
+	"playersBid": "Players",
+	"comingSoon": "Coming Soon",
+	"gameMenu": {
+		"all": "ALL GAMES",
+		"baccarat": "BACCARAT",
+		"dragontiger": "HARIMAU NAGA{n}DRAGON TIGER",
+		"emcee": "EMCEE",
+		"moneywheel": "MONEY WHEEL",
+		"roulette": "ROLET{n}ROULETTE",
+		"sicbo": "ไฮโล{n}SICBO",
+		"niuniu": "NIUNIU",
+		"threecards": "3 CARDS"
+	},
+	"gameMenu2": {
+		"all": "All{n}Games",
+		"baccarat": "Baccarat",
+		"dragontiger": "Dragon Tiger",
+		"emcee": "Emcee",
+		"moneywheel": "Money Wheel",
+		"classic": "Classic",
+		"grand": "Grand",
+		"roulette": "Roulette",
+		"sicbo": "Sicbo",
+		"niuniu": "Niuniu",
+		"threecards": "3 Cards",
+		"live": "Live",
+		"cards": "Card Game",
+		"slot": "Slot"
+	},
+	"gameNames": {
+		"baccarat": "Baccarat",
+		"baccaratBid": "Bidding Baccarat",
+		"baccaratSpeed": "Speed Baccarat",
+		"dragonTiger": "New DT",
+		"dragonTigerClassic": "Classic DT",
+		"dragonTigerBid": "Bidding New DT",
+		"allDT": "Dragon Tiger",
+		"moneywheel": "Moneywheel",
+		"roulette": "ROLET",
+		"niuniu": "Niuniu",
+		"threecards": "3 Cards",
+		"sicbo": "ไฮโล"
+	},
+	"tableAreas": {
+		"player": "pemain",
+		"banker": "bankir",
+		"tie": "seri",
+		"ppair": "pasangan pamain",
+		"bpair": "bankir pasangan",
+		"super6": "SUPER 6",
+		"s6": "S6",
+		"dragon": "naga",
+		"tiger": "harimau",
+		"phoenix": "PHOENIX",
+		"lucky": "LUCKY",
+		"luckyText": "ANY TRIPLE×10 / STRAIGHT FLUSH×5 / FLUSH×3 / STRAIGHT×2 /PAIR (9-A)×1",
+		"ratio": "x {0}",
+		"roulette": {
+			"small": "Small",
+			"big": "Big",
+			"even": "Genap",
+			"odd": "Ganjil",
+			"red": "Merah",
+			"black": "Hitam",
+			"single": "Single",
+			"split": "Split",
+			"square": "Square",
+			"street": "Street",
+			"line": "Line",
+			"tri": "Three Numbers",
+			"row": "Row",
+			"rows": [ "Pertama", "Kedua", "Ketiga" ],
+			"dozen": [ "Pertama", "Kedua", "Ketiga" ],
+			"series": [ "0-Spiel", "ชุด{n}0/2/3", "Orphans", "ชุด{n}5/8" ]
+		},
+		"niuniu": {
+			"banker": "B",
+			"player": "P",
+			"double": "DOUBLE",
+			"equal": "EQUAL",
+			"many": "MANY"
+		}
+	},
+	"tableInfos": {
+		"player": "P",
+		"banker": "B",
+		"dragon": "D",
+		"tiger": "T"
+	},
+	"threecardsTypes": {
+		"triple_killer": "Triple Killer",
+		"triple": "Any Triple – {0}",
+		"straightflush": "Straight Flush – {0}",
+		"flush": "Flush – {0}",
+		"straight": "Straight – {0}",
+		"pair": "Pair – {0}",
+		"high_card": "High Card – {0}"
+	},
+	"niuniuTypes": {
+		"noBull": "No Bull",
+		"bull": "Bull {0}",
+		"bullBull": "Bull",
+		"fivePeople": "5P"
+	},
+	"waiting": {
+		"dealing": "Dealing",
+		"spinning": "pemintalan",
+		"shuffling": "Shuffling"
+	},
+	"winner": {
+		"tie": "seri",
+		"win": "Win"
+	},
+	"chat": {
+		"typing": "ketik di sini...",
+		"search": "CARI..."
+	},
+	"live": "HIDUP",
+	"rotate": "Rotate",
+	"firstCard": "First Card",
+	"raceTracker": "Race Tracker",
+	"follow": "Follow",
+	"predict": {
+		"banker": "Ask B",
+		"player": "Ask P"
+	},
+	"messages": {
+		"welcome": "Start",
+		"scroll": "Slide Up",
+		"error": {
+			"connection": "KONEKSI GAGAL",
+			"login": "GAGAL MASUK",
+			"duplicate": "You have been logged out due to multiple login. Please log in again!"
+		},
+		"lobby": {
+			"minCredit": "tidak cukup saldo {0}!"
+		}
+	},
+	"betToast": {
+		"wins": {
+			"player": "player menang!",
+			"banker": "bankir menang!",
+			"dragon": "naga menang!",
+			"tiger": "harimau menang!",
+			"tie": "seri!"
+		},
+		"state": {
+			"success": "taruhan berhasil!",
+			"none": "TEMPAT TARUHAN ANDA!",
+			"betStart": "Place Your Bets!",
+			"betEnd": "No More Bets!",
+			"squeeze": "Squeeze Start: {0}!",
+			"standby": "Please Standby!",
+			"balance": "sisa {0} {1}!",
+			"activeBet": "Unable to Exit Due to Active Bet!",
+			"minBet": "TARUHAN DI BAWAH MINIMUM!",
+			"maxBet": "TARUHAN MELEBIHI BATAS MAKSIMUM!",
+			"noFund": "DANA TIDAK MENCUKUPI!",
+			"noBet3Rnds": "ANDA BELUM BERTARUH UNTUK 3 KALI, 2 LEBIH DAN ANDA AKAN DIARAHKAN UNTUK MELOBI!",
+			"noRebet": "Rebet is NOT available!",
+			"noFundRebet": "Insufficient funds to rebet!"
+		},
+		"dealer": {
+			"followed": "Dealer Successfully Followed!",
+			"hasFollowed": "Dealer sudah mengikuti!"
+		},
+		"banChat": "Place 10 bet to enable chatting!",
+		"delayChat": "Please send chat after {0} seconds."
+	},
+	"symbol": {
+		"comma": ",",
+		"serial": ",",
+		"period": ".",
+		"colon": ":",
+		"semicolon": ";",
+		"exclamation": "!",
+		"question": "?"
+	},
+	"unit": {
+		"min": "min",
+		"sec": "sec"
+	},
+	"number": [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" ],
+	"date": {
+		"format": "MM / DD / YYYY",
+		"months": [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" ],
+		"weekdays": [ "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun" ]
+	}
+}

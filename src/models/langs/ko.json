@@ -1,0 +1,307 @@
+{
+	"siteTitle": [ "OG + Mobile", "ManBetX Mobile" ],
+	"lobbyMarquee": [ "Welcome to Oriental Game! For a better gaming experience, we strongly recommend you to browse with Google Chrome or Safari.", "Welcome to ManbetX." ],
+	"loginForm": {
+		"username": "사용자명",
+		"password": "Password",
+		"login": "로그인"
+	},
+	"logout": "You've been logged out successfully. Please close the tab.",
+	"shoeNo": "슈횟수",
+	"enterGame": "입력",
+	"inEvent": "Event",
+	"emceeTime": "ON LIVE",
+	"sidebar": {
+		"enter": "입력",
+		"bet": "Bet",
+		"goodTips": "Good Tips",
+		"lobby": "로비"
+	},
+	"noHistory": "결과없음",
+	"noData": "No Data",
+	"noGoodtips": {
+		"first": "No good tips",
+		"second": "Please wait"
+	},
+	"profile": {
+		"title": "프로필",
+		"nickname": "별명",
+		"avatar": "아바타"
+	},
+	"subSetting": {
+		"lang": {
+			"title": "언어",
+			"select": "Select Language"
+		},
+		"summary": {
+			"transNo": "Trans No.",
+			"validBet": "Valid Bet",
+			"winLoss": "W/L"
+		},
+		"date": {
+			"from": "From",
+			"to": "To",
+			"cancel": "취소",
+			"comfrim": "확인"
+		},
+		"history": {
+			"title": "기록",
+			"search": "검색",
+			"table": "테이블",
+			"betDate": "날짜",
+			"betCode": "베팅번호",
+			"betArea": "베팅 지역",
+			"amount": "금액",
+			"winLoss": "승패",
+			"noHistory": "결과없음",
+			"shoeNo": "슈횟수",
+			"shoe": "슈횟수",
+			"all": "All",
+			"more": "Detail",
+			"day": "{0} Day",
+			"days": "{0} Days",
+			"game": "Game"
+		},
+		"social": {
+			"title": "Follow",
+			"ranking": "순위",
+			"friends": "친구",
+			"dealers": "딜러들",
+			"name": "이름",
+			"amount": "금액",
+			"table": "테이블",
+			"followers": "팔로워",
+			"enterTable": "입력",
+			"joinTable": "조인"
+		},
+		"rules": {
+			"title": "Rules"
+		},
+		"report": {
+			"title": "Report",
+			"search": "검색",
+			"betDate": "날짜",
+			"rolling": "Rolling",
+			"winLose": "승패"
+		},
+		"sound": {
+			"title": "사운드 FX"
+		},
+		"bgm": {
+			"title": "BGM"
+		},
+		"liveSound": {
+			"title": "Live Sound"
+		},
+		"video": {
+			"title": "영상"
+		},
+		"logout": {
+			"title": "Logout"
+		}
+	},
+	"chipAmount": {
+		"setting": "칩 변경",
+		"edit": "Edit Chips",
+		"save": "저장",
+		"success": "Successfully change the chip amount",
+		"errorMsg": {
+			"min": "Minimum chip value is 1",
+			"max": "Maximum chip value is 99,999,999",
+			"duplicate": "Duplicated value"
+		}
+	},
+	"timeClosed": "CLOSED",
+	"videoLoading": "비디오 로딩중입니다. 잠시만 기다리십시오",
+	"dealer": "딜러",
+	"emcee": "Emcee",
+	"tableMC": "MC{0}",
+	"playersBid": "Players",
+	"comingSoon": "Coming Soon",
+	"gameMenu": {
+		"all": "ALL GAMES",
+		"baccarat": "바카라{n}BACCARAT",
+		"dragontiger": "드래곤 타이거{n}DRAGON TIGER",
+		"emcee": "EMCEE",
+		"moneywheel": "MONEY WHEEL",
+		"roulette": "룰렛{n}ROULETTE",
+		"sicbo": "식보{n}SICBO",
+		"niuniu": "NIUNIU",
+		"threecards": "3 CARDS"
+	},
+	"gameMenu2": {
+		"all": "All{n}Games",
+		"baccarat": "Baccarat",
+		"dragontiger": "Dragon Tiger",
+		"emcee": "Emcee",
+		"moneywheel": "Money Wheel",
+		"classic": "Classic",
+		"grand": "Grand",
+		"roulette": "Roulette",
+		"sicbo": "Sicbo",
+		"niuniu": "Niuniu",
+		"threecards": "3 Cards",
+		"live": "Live",
+		"cards": "Card Game",
+		"slot": "Slot"
+	},
+	"gameNames": {
+		"baccarat": "바카라",
+		"baccaratBid": "바카라 비드하기",
+		"baccaratSpeed": "스피드 바카라",
+		"dragonTiger": "뉴 드래곤 타이거",
+		"dragonTigerClassic": "일반 클래식 드래곤 타이거",
+		"dragonTigerBid": "뉴 드래곤 타이거 비드하기",
+		"allDT": "드래곤 타이거",
+		"moneywheel": "Moneywheel",
+		"roulette": "룰렛",
+		"niuniu": "Niuniu",
+		"threecards": "3 Cards",
+		"sicbo": "식보"
+	},
+	"tableAreas": {
+		"player": "플레이어",
+		"banker": "뱅커",
+		"tie": "타이",
+		"ppair": "플레이어 페어",
+		"bpair": "뱅커 페어",
+		"super6": "수퍼 6",
+		"s6": "S6",
+		"dragon": "드래곤",
+		"tiger": "타이거",
+		"phoenix": "PHOENIX",
+		"lucky": "LUCKY",
+		"luckyText": "ANY TRIPLE×10 / STRAIGHT FLUSH×5 / FLUSH×3 / STRAIGHT×2 /PAIR (9-A)×1",
+		"ratio": "x {0}",
+		"roulette": {
+			"small": "Small",
+			"big": "Big",
+			"even": "이븐",
+			"odd": "오드",
+			"red": "레드",
+			"black": "블랙",
+			"single": "Single",
+			"split": "Split",
+			"square": "Square",
+			"street": "Street",
+			"line": "Line",
+			"tri": "Three Numbers",
+			"row": "Row",
+			"rows": [ "1st{n}Col.", "2nd{n}Col.", "3rd{n}Col." ],
+			"dozen": [ "1st{n}Dozen", "2nd{n}Dozen", "3rd{n}Dozen" ],
+			"series": [ "제로 스피얼", "시리스{n}0/2/3", "오펀스", "시리스{n}5/8" ]
+		},
+		"niuniu": {
+			"banker": "B",
+			"player": "P",
+			"double": "DOUBLE",
+			"equal": "EQUAL",
+			"many": "MANY"
+		}
+	},
+	"tableInfos": {
+		"player": "P",
+		"banker": "B",
+		"dragon": "D",
+		"tiger": "T"
+	},
+	"threecardsTypes": {
+		"triple_killer": "Triple Killer",
+		"triple": "Any Triple – {0}",
+		"straightflush": "Straight Flush – {0}",
+		"flush": "Flush – {0}",
+		"straight": "Straight – {0}",
+		"pair": "Pair – {0}",
+		"high_card": "High Card – {0}"
+	},
+	"niuniuTypes": {
+		"noBull": "No Bull",
+		"bull": "Bull {0}",
+		"bullBull": "Bull",
+		"fivePeople": "5P"
+	},
+	"waiting": {
+		"dealing": "베팅정지",
+		"spinning": "Spinning Wheel",
+		"shuffling": "Shuffling"
+	},
+	"winner": {
+		"tie": "타이",
+		"win": "Win"
+	},
+	"chat": {
+		"typing": "여기에 입력...",
+		"search": "검색..."
+	},
+	"live": "라이브방송",
+	"rotate": "Rotate",
+	"firstCard": "First Card",
+	"raceTracker": "Race Tracker",
+	"follow": "Follow",
+	"predict": {
+		"banker": "Ask B",
+		"player": "Ask P"
+	},
+	"messages": {
+		"welcome": "Start",
+		"scroll": "Slide Up",
+		"error": {
+			"connection": "저장 실패",
+			"login": "로그인 실패",
+			"duplicate": "You have been logged out due to multiple login. Please log in again!"
+		},
+		"lobby": {
+			"minCredit": "Sorry, the minimum credit to enter is {0}!"
+		}
+	},
+	"betToast": {
+		"wins": {
+			"player": "플래이어 승리！",
+			"banker": "뱅커 승리！",
+			"dragon": "드래곤 승리！",
+			"tiger": "타이거 승리！",
+			"tie": "타이！"
+		},
+		"state": {
+			"success": "베팅 성공！",
+			"none": "베팅하여 주십시오！",
+			"betStart": "Place Your Bets!",
+			"betEnd": "No More Bets!",
+			"squeeze": "Squeeze Start: {0}!",
+			"standby": "Please Standby!",
+			"balance": "잔액 {0} {1}！",
+			"activeBet": "Unable to Exit Due to Active Bet!",
+			"minBet": "베팅이 최하 베팅 미만입니다！",
+			"maxBet": "베팅 최대 한도 초과！",
+			"noFund": "자금 부족！",
+			"noBet3Rnds": "3 회동안 베팅하지 않았습니다. 2 회 지나면 로비로 나갑니다！",
+			"noRebet": "Rebet is NOT available!",
+			"noFundRebet": "Insufficient funds to rebet!"
+		},
+		"dealer": {
+			"followed": "Dealer Successfully Followed!",
+			"hasFollowed": "딜러를 팔로우했습니다！"
+		},
+		"banChat": "Place 10 bet to enable chatting!",
+		"delayChat": "Please send chat after {0} seconds."
+	},
+	"symbol": {
+		"comma": ",",
+		"serial": ",",
+		"period": ".",
+		"colon": ":",
+		"semicolon": ";",
+		"exclamation": "!",
+		"question": "?"
+	},
+	"unit": {
+		"min": "min",
+		"sec": "sec"
+	},
+	"number": [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" ],
+	"date": {
+		"format": "MM / DD / YYYY",
+		"months": [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" ],
+		"weekdays": [ "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun" ]
+	}
+}

@@ -1,0 +1,307 @@
+{
+	"siteTitle": [ "OG + Mobile", "ManBetX Mobile" ],
+	"lobbyMarquee": [ "Welcome to Oriental Game! For a better gaming experience, we strongly recommend you to browse with Google Chrome or Safari.", "Welcome to ManbetX." ],
+	"loginForm": {
+		"username": "ชื่อผู้ใช้",
+		"password": "Password",
+		"login": "เข้าสู่ระบบ"
+	},
+	"logout": "You've been logged out successfully. Please close the tab.",
+	"shoeNo": "Shoe",
+	"enterGame": "เข้าสู่",
+	"inEvent": "Event",
+	"emceeTime": "ON LIVE",
+	"sidebar": {
+		"enter": "เข้าสู่",
+		"bet": "Bet",
+		"goodTips": "Good Tips",
+		"lobby": "ล็อบบี้"
+	},
+	"noHistory": "ไม่มีประวัติ",
+	"noData": "No Data",
+	"noGoodtips": {
+		"first": "No good tips",
+		"second": "Please wait"
+	},
+	"profile": {
+		"title": "ข้อมูลส่วนตัว",
+		"nickname": "ชื่อเล่น",
+		"avatar": "Select Avatar"
+	},
+	"subSetting": {
+		"lang": {
+			"title": "ภาษา",
+			"select": "Select Language"
+		},
+		"summary": {
+			"transNo": "Trans No.",
+			"validBet": "Valid Bet",
+			"winLoss": "W/L"
+		},
+		"date": {
+			"from": "From",
+			"to": "To",
+			"cancel": "ยกเลิก",
+			"comfrim": "ยืนยัน"
+		},
+		"history": {
+			"title": "ประวัติ",
+			"search": "ค้นหา",
+			"table": "ตาราง",
+			"betDate": "วันที่",
+			"betCode": "Bet Code",
+			"betArea": "พื้นที่เดิมพัน",
+			"amount": "Bet",
+			"winLoss": "แพ้ชนะ",
+			"noHistory": "ไม่มีประวัติ",
+			"shoeNo": "Shoe",
+			"shoe": "Shoe",
+			"all": "All",
+			"more": "Detail",
+			"day": "{0} Day",
+			"days": "{0} Days",
+			"game": "Game"
+		},
+		"social": {
+			"title": "Follow",
+			"ranking": "การจัดอันดับ",
+			"friends": "Friends",
+			"dealers": "Dealers",
+			"name": "ชื่อ",
+			"amount": "Bet",
+			"table": "ตาราง",
+			"followers": "Followers",
+			"enterTable": "เข้าสู่",
+			"joinTable": "ร่วม"
+		},
+		"rules": {
+			"title": "Rules"
+		},
+		"report": {
+			"title": "Report",
+			"search": "ค้นหา",
+			"betDate": "วันที่",
+			"rolling": "Rolling",
+			"winLose": "แพ้ชนะ"
+		},
+		"sound": {
+			"title": "เสียงประกอบ"
+		},
+		"bgm": {
+			"title": "BGM"
+		},
+		"liveSound": {
+			"title": "Live Sound"
+		},
+		"video": {
+			"title": "วีดีโอ"
+		},
+		"logout": {
+			"title": "ออกจากระบบ"
+		}
+	},
+	"chipAmount": {
+		"setting": "เปลี่ยนแปลง เงิน",
+		"edit": "Edit Chips",
+		"save": "ประหยัด",
+		"success": "Successfully change the chip amount",
+		"errorMsg": {
+			"min": "Minimum chip value is 1",
+			"max": "Maximum chip value is 99,999,999",
+			"duplicate": "Duplicated value"
+		}
+	},
+	"timeClosed": "CLOSED",
+	"videoLoading": "กำลังโหลดวิดีโอโปรดรอสักครู่",
+	"dealer": "Dealer",
+	"emcee": "Emcee",
+	"tableMC": "MC{0}",
+	"playersBid": "Players",
+	"comingSoon": "Coming Soon",
+	"gameMenu": {
+		"all": "ALL GAMES",
+		"baccarat": "BACCARAT",
+		"dragontiger": "มังกร เสือ{n}DRAGON TIGER",
+		"emcee": "EMCEE",
+		"moneywheel": "MONEY WHEEL",
+		"roulette": "รูเล็ต{n}ROULETTE",
+		"sicbo": "SIKBO{n}SICBO",
+		"niuniu": "NIUNIU",
+		"threecards": "3 CARDS"
+	},
+	"gameMenu2": {
+		"all": "All{n}Games",
+		"baccarat": "Baccarat",
+		"dragontiger": "Dragon Tiger",
+		"emcee": "Emcee",
+		"moneywheel": "Money Wheel",
+		"classic": "Classic",
+		"grand": "Grand",
+		"roulette": "Roulette",
+		"sicbo": "Sicbo",
+		"niuniu": "Niuniu",
+		"threecards": "3 Cards",
+		"live": "Live",
+		"cards": "Card Game",
+		"slot": "Slot"
+	},
+	"gameNames": {
+		"baccarat": "Baccarat",
+		"baccaratBid": "Bidding Baccarat",
+		"baccaratSpeed": "Speed Baccarat",
+		"dragonTiger": "New DT",
+		"dragonTigerClassic": "Classic DT",
+		"dragonTigerBid": "Bidding New DT",
+		"allDT": "Dragon Tiger",
+		"moneywheel": "Moneywheel",
+		"roulette": "รูเล็ต",
+		"niuniu": "Niuniu",
+		"threecards": "3 Cards",
+		"sicbo": "SIKBO"
+	},
+	"tableAreas": {
+		"player": "ผู้เล่น",
+		"banker": "นายธนาคาร",
+		"tie": "เหมือนกัน",
+		"ppair": "คู่เล่น",
+		"bpair": "คู่ธนาคาร",
+		"super6": "SUPER 6",
+		"s6": "S6",
+		"dragon": "มังกร",
+		"tiger": "เสือ",
+		"phoenix": "PHOENIX",
+		"lucky": "LUCKY",
+		"luckyText": "ANY TRIPLE×10 / STRAIGHT FLUSH×5 / FLUSH×3 / STRAIGHT×2 /PAIR (9-A)×1",
+		"ratio": "x {0}",
+		"roulette": {
+			"small": "Small",
+			"big": "Big",
+			"even": "เลขคู่",
+			"odd": "เลขคี่",
+			"red": "สีแดง",
+			"black": "สีดำ",
+			"single": "Single",
+			"split": "Split",
+			"square": "Square",
+			"street": "Street",
+			"line": "Line",
+			"tri": "Three Numbers",
+			"row": "Row",
+			"rows": [ "1st{n}Col.", "2nd{n}Col.", "3rd{n}Col." ],
+			"dozen": [ "1st{n}Dozen", "2nd{n}Dozen", "3rd{n}Dozen" ],
+			"series": [ "ศูนย์ Spiel", "Seri{n}0/2/3", "เด็กกำพร้า", "Seri{n}5/8" ]
+		},
+		"niuniu": {
+			"banker": "B",
+			"player": "P",
+			"double": "DOUBLE",
+			"equal": "EQUAL",
+			"many": "MANY"
+		}
+	},
+	"tableInfos": {
+		"player": "P",
+		"banker": "B",
+		"dragon": "D",
+		"tiger": "T"
+	},
+	"threecardsTypes": {
+		"triple_killer": "Triple Killer",
+		"triple": "Any Triple – {0}",
+		"straightflush": "Straight Flush – {0}",
+		"flush": "Flush – {0}",
+		"straight": "Straight – {0}",
+		"pair": "Pair – {0}",
+		"high_card": "High Card – {0}"
+	},
+	"niuniuTypes": {
+		"noBull": "No Bull",
+		"bull": "Bull {0}",
+		"bullBull": "Bull",
+		"fivePeople": "5P"
+	},
+	"waiting": {
+		"dealing": "Dealing",
+		"spinning": "ปั่นด้าย",
+		"shuffling": "Shuffling"
+	},
+	"winner": {
+		"tie": "เหมือนกัน",
+		"win": "Win"
+	},
+	"chat": {
+		"typing": "พิมพ์ที่นี่...",
+		"search": "ค้นหา..."
+	},
+	"live": "มีชีวิต",
+	"rotate": "Rotate",
+	"firstCard": "First Card",
+	"raceTracker": "Race Tracker",
+	"follow": "Follow",
+	"predict": {
+		"banker": "Ask B",
+		"player": "Ask P"
+	},
+	"messages": {
+		"welcome": "Start",
+		"scroll": "Slide Up",
+		"error": {
+			"connection": "การเชื่อมต่อล้มเหลวการเชื่อมต่อใหม่!",
+			"login": "เข้าสู่ระบบล้มเหลว",
+			"duplicate": "You have been logged out due to multiple login. Please log in again!"
+		},
+		"lobby": {
+			"minCredit": "ความสมดุลไม่เพียงพอ {0}!"
+		}
+	},
+	"betToast": {
+		"wins": {
+			"player": "คู่เล่น!",
+			"banker": "นายธนาคารชนะ!",
+			"dragon": "มังกร ชนะ!",
+			"tiger": "เสือจะชนะ!",
+			"tie": "เหมือนกัน!"
+		},
+		"state": {
+			"success": "เดิมพันที่ประสบความสำเร็จ!",
+			"none": "วางเดิมพันของคุณ!",
+			"betStart": "Place Your Bets!",
+			"betEnd": "No More Bets!",
+			"squeeze": "Squeeze Start: {0}!",
+			"standby": "Please Standby!",
+			"balance": "สมดุล {0} {1}!",
+			"activeBet": "Unable to Exit Due to Active Bet!",
+			"minBet": "การเดิมพันต่ำกว่าค่าต่ำสุด!",
+			"maxBet": "เดิมพันเกินขีด จำกัด!",
+			"noFund": "ความสมดุลไม่เพียงพอ!",
+			"noBet3Rnds": "คุณไม่ได้เดิมพันเป็นเวลา 3 ครั้งและอีก 2 ครั้งคุณจะได้รับการเปลี่ยนเส้นทางไปยัง LOBBY!",
+			"noRebet": "Rebet is NOT available!",
+			"noFundRebet": "Insufficient funds to rebet!"
+		},
+		"dealer": {
+			"followed": "Dealer Successfully Followed!",
+			"hasFollowed": "ตัวแทนจำหน่ายได้ติดตามแล้ว!"
+		},
+		"banChat": "Place 10 bet to enable chatting!",
+		"delayChat": "Please send chat after {0} seconds."
+	},
+	"symbol": {
+		"comma": ",",
+		"serial": ",",
+		"period": ".",
+		"colon": ":",
+		"semicolon": ";",
+		"exclamation": "!",
+		"question": "?"
+	},
+	"unit": {
+		"min": "min",
+		"sec": "sec"
+	},
+	"number": [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" ],
+	"date": {
+		"format": "MM / DD / YYYY",
+		"months": [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" ],
+		"weekdays": [ "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun" ]
+	}
+}
